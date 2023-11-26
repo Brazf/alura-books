@@ -1,0 +1,16 @@
+# Arquivos de configuração do IDE
+*.iml
+*.project
+*.settings
+
+# Arquivos de compilação ou build
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+
+# Arquivos de cache ou temporários
+*.tmp
+*.bak
+*.log
