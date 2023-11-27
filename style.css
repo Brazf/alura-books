@@ -6,3 +6,21 @@ body {
     background-color: var(--color-fundo);
 }
 
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+}
+
+.icons__lado__esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.icons__lado__direito {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
