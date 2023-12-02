@@ -59,3 +59,60 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.container__titulo {
+    display: none;
+}
+
+.container__opções {
+    display: none;
+}
+
+@media screen and ( min-width: 1024px) {
+
+    .cabecalho__menu__hambuguer,
+    .container__image--favoritos{
+        display: none;
+    }
+
+    .container__titulo {
+        padding: 0.2em 0 0 0;
+        font-family: var(--font-secundaria);
+        display: block;
+        font-size: 1.875rem;
+        font-weight: 400;
+    }
+
+    .container__itens {
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0 2em;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+        font-size: 1.875rem;
+    }
+
+    .container__opções {
+        display: flex;
+    }
+
+    .container__links {
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .opções-botão:checked~.lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções-botão {
+        display: none;
+    }
+
+
+}
+    

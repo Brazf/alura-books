@@ -12,11 +12,14 @@
     --azul-degrade: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-princiapl: 'Poppins';
     --azul: #002f52;
+    --font-secundaria: 'Josefin Sans';
+    --cor-cinza: #474646;
+    --cor-titulo-rodape: #858585;
 }
 
 body {
     background-color: var(--color-fundo);
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte-princiapl);
     font-size: 1rem;
     font-weight: 400;
 }
