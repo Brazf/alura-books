@@ -25,9 +25,8 @@
     <header class="cabecalho">
       <div class="container">
         <input type="checkbox" id="menu" class="container__botao" />
-        <label for="menu">
+        <label for="menu" class="container__rotulo">
           <span
-            src="assets/Menu.svg"
             alt="Botão de Menu"
             class="cabecalho__menu__hambuguer container__image"
           ></span>
@@ -62,7 +61,7 @@
 
       <ul class="container__opções">
         <input type="checkbox" id="opções-menu" class="opções-botão" />
-        <label for="opções-menu">
+        <label for="opções-menu" class="opções__rotulo">
           <li class="container__itens">Categorias</li>
         </label>
 
@@ -99,18 +98,22 @@
             alt="Ícone de Favoritos"
             class="container__image container__image--favoritos"
         /></a>
-        <a href="#"
+        <a href="#" class="container__link"
           ><img
             src="assets/Sacola.svg"
             alt="Ícone de Sacola"
             class="container__image"
-        /></a>
-        <a href="#"
+          />
+          <p class="container__texto">Minha sacola</p></a
+        >
+        <a href="#" class="container__link"
           ><img
             src="assets/Usuario.svg"
             alt="Ícone de Usuário"
             class="container__image"
-        /></a>
+          />
+          <p class="container__texto">Meu perfil</p></a
+        >
       </div>
     </header>
     <main>
@@ -128,6 +131,7 @@
       <section class="carrosel">
         <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
 
+        <div class="carrosel__container">
         <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
@@ -208,6 +212,7 @@
             <a href="#" class="botões__ancora">Saiba mais</a>
           </div>
         </div>
+      </div>
       </section>
 
       <!-- SEGUNDO CARROSEL -->
@@ -215,6 +220,7 @@
       <section class="carrosel">
         <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
 
+        <div class="carrosel__container">
         <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
@@ -294,6 +300,8 @@
             <!-- 2º coluna -->
             <a href="#" class="botões__ancora">Saiba mais</a>
           </div>
+        </div>
+
         </div>
       </section>
 

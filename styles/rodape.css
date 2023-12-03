@@ -45,3 +45,17 @@ hr {
         margin-bottom: 25px;
     }
 }
+
+
+@media screen and (min-width: 1728px) {
+
+    .educacao {
+        border-left: 1px solid var(--cor-cinza);
+        padding-left: 20px;
+    }
+
+    .rodapé {
+        padding: 3em;
+    }
+
+}

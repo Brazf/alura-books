@@ -103,3 +103,37 @@
 
 
 }
+
+@media screen and ( min-width: 1728px) {
+
+    .carrosel__container {
+        display: flex;
+        margin: 115px 175px 114px 175px;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1em 0;
+        
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__titulo-livro {
+        font-size: 18px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+
+}
